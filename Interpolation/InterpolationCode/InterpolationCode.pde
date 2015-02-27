@@ -1,11 +1,11 @@
 
-
+ 
   int j = 0;
   int x = 600;
   int y = 320;
   int time = millis();
   int wait = 500;
-  int s = 10;
+  int s = 10;            //number of steps between image
   
   
 void setup(){
@@ -59,7 +59,7 @@ void draw(){
         }
 }
  
- 
+
     /* first = loadImage("1.JPG");
     first.resize(x, y);
     last = loadImage ("3.JPG"); 
